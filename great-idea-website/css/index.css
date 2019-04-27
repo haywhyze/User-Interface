@@ -162,13 +162,24 @@ h1 {
 }
 
 .container {
-	width: 960px;
 	margin: 0 auto;
-	padding: 3rem;
+	padding: 0 3rem 1rem 3rem;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+header {
+	width: 100%;
+	background-color: #F1F1F1;
+	padding: 1rem 0;
+	position: fixed;
+	margin: 0 auto;
+	max-width: calc(960px - 6rem);
+	z-index: 3;
 }
 
 nav {
-	width: 70%;
+	width: 74%;
 }
 
 
@@ -189,7 +200,7 @@ nav,
 }
 
 .link-items a {
-	color: #777;
+	color: black;
 	font-size: .8rem;
 	text-decoration: none;
 }
@@ -219,6 +230,10 @@ nav,
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 2rem 0;
+}
+
+.middle-img {
+	width: 100%;
 }
 
 .features,
